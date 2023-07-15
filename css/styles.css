@@ -13,6 +13,7 @@ body{
 
 .container{
     width: 1140px;
+    max-width: 100%;
     margin: 0px auto;
 }
 
@@ -44,7 +45,7 @@ p{
 
 /* =========header area css start ======= */
 #header{
-    width: 100vw;
+    width: 100%;
     background-color: #FCEEF1;
     overflow: hidden;
 }
@@ -69,14 +70,13 @@ p{
 /* =========header area css end======= */
 
 /* =========features area css start======= */
-#our-features{
-    width: 100vw;
-}
-
 .inner-features{
     width: 100%;
     text-align: center;
     padding-top: 30px;
+}
+.inner-features > p{
+    margin-bottom: 30px;
 }
 
 .section-head-title{
@@ -90,6 +90,7 @@ p{
     text-align: center;
     margin: 20px auto;
 }
+
 
 .features-flowers-container{
     display: flex;
@@ -167,9 +168,6 @@ p{
 
 
 /* =========selling area css start======= */
-#top-selling{
-    width: 100vw;
-}
 
 .inner-selling-flower{
     width: 100%;
@@ -184,7 +182,7 @@ p{
 }
 
 .selling-flower-details{
-    width: 320px;
+    width: 30%;
     text-align: center;
     box-shadow: 5px 5px 35px gray;
     border-radius: 5px;
@@ -211,13 +209,12 @@ p{
 
 /* =========hot deal area css starts======= */
 #hot-deal{
-    width: 100vw;
     background-color: #FDF6F8;
 }
 
 .hot-deal-container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 60px 0px;
 }
@@ -240,9 +237,6 @@ p{
 
 
 /* ========= instagram area css start======= */
-#instagram{
-    width: 100vw;
-}
 
 .inner-instagram{
     width: 100%;
@@ -261,7 +255,7 @@ p{
 }
 
 .instagram-flower-image{
-    width: 270px;
+    max-width: 270px;
     
 }
 
@@ -271,7 +265,6 @@ p{
 
 /* ========= latest area css end======= */
 #latest-deals{
-    width: 100vw;
     margin-bottom: 100px;
 }
    
@@ -308,7 +301,7 @@ p{
 
 /* ========= footer area css start======= */
 #footer{
-    width: 100vw;
+    width: 100%;
     background-color: #000000;
     color: #fff;
 }
@@ -329,4 +322,4 @@ p{
 .footer-content small{
     color: #7c7c7c;
 }
-/* ========= latest area css end======= */
+/* ========= footer area css end======= */
